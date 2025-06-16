@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/mohmedayman2009/dotnet-jenkins-demo.git', branch: 'main'
+                git url: 'https://github.com/mohmedayman2009/dotnet-jenkins-demo.git'
             }
         }
 
